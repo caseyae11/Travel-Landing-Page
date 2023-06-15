@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Travel Landing Page</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <h2 class="logo">Ace Resort</h2>
+            <div class="toggle"></div>
+        </header>
+        <video src="explore.mp4" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+        <h2>Want To</h2>
+        <h3>Reach Out to Us?</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid possimus eum ipsa. Minus, cupiditate similique. Saepe ipsa vitae obcaecati, architecto minima reiciendis accusamus sequi nulla, temporibus dolore pariatur veniam!</p>
+        </div>
+        <ul class="social">
+            <li><a href="#"><img src="facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="twitter.png" alt=""></a></li>
+            <li><a href="#"><img src="instagram.png" alt=""></a></li>
+        </ul>
+    </section>
+        <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Destination</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        </div>
+        <script>
+            const menuToggle = document.querySelector('.toggle')
+            const showcase = document.querySelector('.showcase')
+    
+            menuToggle.addEventListener('click', ()=> {
+                menuToggle.classList.toggle('active')
+                showcase.classList.toggle('active')
+            })
+    
+        </script>
+</body>
+</html>
